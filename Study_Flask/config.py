@@ -8,3 +8,5 @@ class ProdConfig(Config):
 
 class DevConfig(Config):
     DEBUG=True
+    SQLALCHEMY_DATABASE_URI="YOUR URI"
+
